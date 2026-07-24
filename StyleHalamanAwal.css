@@ -20,8 +20,8 @@ body {
     padding: 15px 30px;
     top: 0;
     width: 100%;
+    gap: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    margin-bottom: 5rem;
 }
 
 .brand {
@@ -53,30 +53,134 @@ body {
 #FrameSatu {
     background-color: #5e17eb;
     display: flex;
-    width: 100rem;
-    height: 11rem;
-    padding: 0 2rem; 
-    margin: 0 auto; 
     align-items: center; 
     justify-content: center;
+    width: 100rem;
+    height: 11rem;
+    padding: 0 0.5rem; 
+    margin: 2rem auto; 
 }
 
 #FrameIsi1 {
     background-color: #4f13c6;
     display: flex;
+    align-items: center; 
+    justify-content: space-between;
     width: 99rem;
     height: 9rem;
     padding: 0 2rem; 
-    align-items: center; 
-    justify-content: space-between;
 }
 
 #FrameIsi1 p {
     color: white;
-    font-size: 2rem;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 #FrameIsi1 img{
     width: 8rem;
+}
+
+/* Frame Gabungan Satu */
+
+#FrameGabunganSatu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95rem;
+    margin: 1rem auto;
+}
+
+#FrameDua, 
+#FrameTiga {
+    background-color: #5e17eb;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+#FrameIsi2, 
+#FrameIsi3 {
+    background-color: #4f13c6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+#FrameIsi2 p {
+    background-color: #5170ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 17rem;
+    height: 8rem;
+    padding: 1rem;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#FrameIsi3 p {
+    background-color: #5170ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Frame Empat */
+
+#FrameEmpat {
+    background-color: #5e17eb;
+    display: flex;
+    width: 95rem;
+    margin: 0 auto;
+}
+
+#FrameGabunganDua {
+    background-color: #5e17eb;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+#FrameEmpat1, 
+#FrameEmpat2, 
+#FrameEmpat3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+#FrameEmpat1 h3,
+#FrameEmpat2 h3, 
+#FrameEmpat3 h3{
+    background-color: #5170ff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#FrameEmpat1 p, 
+#FrameEmpat2 p {
+    background-color: #4f13c6;
+    color: white;
+    display: flex;
+    padding: 1.5rem;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
 }
